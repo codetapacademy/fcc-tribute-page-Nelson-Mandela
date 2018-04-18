@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+    // let's make the border rounder
+    border-radius: 10px;
+    border: 
+        // thickness
+        1px
+        // style
+        solid
+        // color
+        #c00;
+    border: 2px solid yellow;
+    padding: 5px 10px;
+
+    &:before {
+        content: "the dude's name: ";
+        color: blue;
+    }
+}
+body {
+    // top, left, right and bottom
+    padding: 10px;
+
+    // 10px for top and bottom
+    // and 20px for left and right
+    padding: 10px 50px;
+
+    // 10px for top, 20px for left and right
+    // 50px for bottom
+    padding: 10px 20px 50px;
+
+    // 5px for top
+    // 10px for right
+    // 15px for bottom
+    // 20px for left
+    padding: 5px 10px 15px 20px;
+}
